@@ -1,5 +1,6 @@
 require "angucomplete_alt_rails/version"
 
 module AngucompleteAltRails
-  # Your code goes here...
+  class Engine < ::Rails::Engine
+  end
 end
